@@ -68,7 +68,7 @@ namespace DatingApp.API.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<string>("Interest")
+                    b.Property<string>("Interests")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Introduction")
