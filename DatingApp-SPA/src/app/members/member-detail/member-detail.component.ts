@@ -28,7 +28,20 @@ export class MemberDetailComponent implements OnInit {
         height: '500px',
         imagePercent: 100,
         thumbnailsColumns: 4,
-        imageAnimation: NgxGalleryAnimation.Slide,
+        imageAnimation: NgxGalleryAnimation.Slide
+      },
+      {
+        breakpoint: 800,
+        width: '100%',
+        height: '600px',
+        imagePercent: 80,
+        thumbnailsPercent: 20,
+        thumbnailsMargin: 20,
+        thumbnailMargin: 20
+      },
+      // max-width 400
+      {
+        breakpoint: 400,
         preview: false
       }
     ];
